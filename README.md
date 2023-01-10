@@ -14,4 +14,9 @@ pip install -r requirements.txt
 ## Run
 ```commandline
 python script.py
+
+Site url: https://www.example.com/  (Make sure you have the website in Google Search Console)
+Start date: xxxx-xx-xx
+End date: xxxx-xx-xx
+Key file path: client_secrets.json  (You need to get the key file from Google Cloud Console)
 ```
