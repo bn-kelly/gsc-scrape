@@ -30,7 +30,7 @@ def main():
     profile.update_preferences()
     # init driver
     options = webdriver.FirefoxOptions()
-    options.binary_location = '/usr/bin/firefox'
+    options.binary_location = GeckoDriverManager().install()
     driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(),
                                firefox_profile=profile,
                                desired_capabilities=DesiredCapabilities.FIREFOX,
