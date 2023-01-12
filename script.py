@@ -18,7 +18,7 @@ def get_num_pages(total, limit_per_page):
 def main():
     site_url = 'https://brickfilms.com/'
     url = f'https://search.google.com/search-console/links/drilldown?resource_id={urllib.parse.quote(site_url)}&type=EXTERNAL&target=&domain='
-    profile_dir = '/home/osboxes/.mozilla/firefox/q6h997k2.default-release-1646795451268'
+    profile_dir = '/home/brian/.mozilla/firefox/q6h997k2.default-release-1646795451268'
 
     # setup display
     display = Display(visible=True, size=(1920, 1080))

@@ -6,8 +6,10 @@ This script is to download external link Urls from Google search console.
 ## Requirement
 Python 3.7+
 
-## Install dependencies
+## Environment Setup
 ```commandline
+python3 -m venv venv
+./venv/bin/activate.bat
 pip install -r requirements.txt
 ```
 
