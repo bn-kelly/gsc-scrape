@@ -31,6 +31,7 @@ def main():
     # init driver
     options = webdriver.FirefoxOptions()
     options.binary_location = GeckoDriverManager().install()
+    options.headless = True
     driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(),
                                firefox_profile=profile,
                                desired_capabilities=DesiredCapabilities.FIREFOX,
