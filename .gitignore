@@ -166,3 +166,4 @@ poetry.toml
 
 client_secrets.json
 *.csv
+sites.txt
