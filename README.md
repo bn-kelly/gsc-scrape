@@ -8,7 +8,7 @@ Python 3.7+
 
 ## Download
 ```
-$ git clone https://github.com/bnkelly/gsc-scrape.git
+$ git clone https://github.com/bn-kelly/gsc-scrape.git
 ```
 
 ## Environment Setup
